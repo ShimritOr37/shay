@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.clockt"
+  
+  	    android:id="@+id/circle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+      
+        >
+    <com.example.clockt.PieChart
+  	  android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+       
+     custom:clock="@drawable/shape"
+     custom:handMin="@drawable/min"
+     custom:handSec="@drawable/sec"
+     custom:handHour="@drawable/hour"
+        />
+</LinearLayout>

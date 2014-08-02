@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <declare-styleable name="PieChart">
+     
+        <attr name="clock" format="color|reference"/>
+       <attr name="handMin" format="color|reference"/>
+       <attr name="handHour" format="color|reference"/>
+       <attr name="handSec" format="color|reference"/>
+ 	  
+   </declare-styleable>
+</resources>
